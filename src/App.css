@@ -6,7 +6,14 @@
   text-align: center;
   width: 90%;
 }
-
+h1 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
 p {
   font-size: 1.8rem;
+}
+
+.bold {
+  font-weight: bold;
 }
