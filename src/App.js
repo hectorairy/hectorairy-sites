@@ -23,11 +23,55 @@ function App() {
         {"  "}my name is Hector Airy.
       </h1>
       <p>
-        A Passionate about designing and developing impactful technology. An
+        A passionate about designing and developing impactful technology. An
         enthusiastic of long term thinking. Faithful believer that there’s
         nothing you cannot learn.
       </p>
-      {/* 49263990584 */}
+      <p>Welcome!</p>
+      {/* <div>
+        <Button
+          size={"lg"}
+          block
+          color="violet"
+          className="bold"
+          appearance="primary"
+        >
+          <Web /> Web
+        </Button>
+        <Button size={"lg"} block color="violet" appearance="primary">
+          <EmailFillIcon /> YouTube
+        </Button>
+        <Button size={"lg"} block color="blue" appearance="primary">
+          <FacebookOfficial /> Facebook
+        </Button>
+        <Button size={"lg"} block appearance="default">
+          <Github /> GitHub
+        </Button>
+        <Button size={"lg"} block color="red" appearance="primary">
+          <Youtube /> YouTube
+        </Button>
+        <Button size={"lg"} block color="cyan" appearance="primary">
+          <Twitter /> Twitter
+        </Button>
+        <Button
+          href="https://www.linkedin.com/in/hectorairy/"
+          target="_blank"
+          rel="noreferrer"
+          size={"lg"}
+          block
+          color="blue"
+          appearance="primary"
+        >
+          <Linkedin /> LinkedIn
+        </Button>
+      </div> */}
+
+      <footer>
+        ♤ The World Is Yours ♤ <br />
+        <span>
+          Site created by <a href="https://hectorairy.com/">Héctor Airy</a> 🐉
+        </span>
+      </footer>
     </div>
   );
 }
