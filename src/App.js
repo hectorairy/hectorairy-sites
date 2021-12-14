@@ -1,7 +1,15 @@
 import React from "react";
 import Avatar from "react-avatar";
-
+import {
+  FaDragon,
+  FaGithub,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import "./App.css";
+import { Link } from "./components/Link";
 
 function App() {
   return (
@@ -23,53 +31,69 @@ function App() {
         {"  "}my name is Hector Airy.
       </h1>
       <p>
+        <span>I'm a React Developer since 2018.</span>
+      </p>
+      <p>
         A passionate about designing and developing impactful technology. An
         enthusiastic of long term thinking. Faithful believer that there’s
         nothing you cannot learn.
       </p>
-      <p>Welcome!</p>
-      {/* <div>
-        <Button
-          size={"lg"}
-          block
-          color="violet"
-          className="bold"
-          appearance="primary"
-        >
-          <Web /> Web
-        </Button>
-        <Button size={"lg"} block color="violet" appearance="primary">
-          <EmailFillIcon /> YouTube
-        </Button>
-        <Button size={"lg"} block color="blue" appearance="primary">
-          <FacebookOfficial /> Facebook
-        </Button>
-        <Button size={"lg"} block appearance="default">
-          <Github /> GitHub
-        </Button>
-        <Button size={"lg"} block color="red" appearance="primary">
-          <Youtube /> YouTube
-        </Button>
-        <Button size={"lg"} block color="cyan" appearance="primary">
-          <Twitter /> Twitter
-        </Button>
-        <Button
-          href="https://www.linkedin.com/in/hectorairy/"
-          target="_blank"
-          rel="noreferrer"
-          size={"lg"}
-          block
-          color="blue"
-          appearance="primary"
-        >
-          <Linkedin /> LinkedIn
-        </Button>
-      </div> */}
+      <p>
+        <strong>Welcome!</strong>
+      </p>
+      <>
+        <Link
+          link="https://hectorairy.com/"
+          iconComponent={<FaDragon />}
+          text="My website (in progress...)"
+          background="#8F00FF"
+          color="white"
+        />
+        <Link
+          link="https://www.linkedin.com/in/hectorairy/"
+          iconComponent={<FaLinkedin />}
+          text="Find me on LinkedIn "
+          background="#0e76a8"
+          color="white"
+        />
+        <Link
+          link="https://github.com/hectorairy"
+          iconComponent={<FaGithub />}
+          text="Check my code"
+          background="#171515"
+          color="white"
+        />
+        <Link
+          link="https://hectorairy.com/"
+          iconComponent={<FaTwitter />}
+          text="Follow me on Twitter"
+          background="#1DA1F2"
+          color="white"
+        />
+        <Link
+          link="https://www.youtube.com/channel/UCwPHunzXRBnKsFNuZONt5fw"
+          iconComponent={<FaYoutube />}
+          text="Git Course"
+          background="#FF0000"
+          color="white"
+        />
+        <Link
+          link="mailto:hola@hectorairy.com"
+          iconComponent={<MdEmail />}
+          text="Can I help you?"
+          background="#0489C9"
+          color="white"
+        />
+      </>
 
       <footer>
         ♤ The World Is Yours ♤ <br />
         <span>
-          Site created by <a href="https://hectorairy.com/">Héctor Airy</a> 🐉
+          Site created by{" "}
+          <a href="https://hectorairy.com/" target="_blank" rel="noreferrer">
+            Héctor Airy
+          </a>{" "}
+          🐉
         </span>
       </footer>
     </div>

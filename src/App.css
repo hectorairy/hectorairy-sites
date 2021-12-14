@@ -16,18 +16,35 @@ p {
   margin: 1.6rem;
 }
 
-footer {
-  margin: 2rem;
-  font-size: 1.4rem;
+button {
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
 
+svg {
+  margin-right: 0.5rem;
+}
+
+footer {
+  font-size: 1.4rem;
   font-weight: 500;
+  margin: 2rem;
 }
 
 a,
 a:focus,
 a:active {
-  font-weight: bold;
   color: white !important;
+  cursor: pointer;
+  font-weight: bold;
   text-decoration: none;
 }
 
