@@ -18,7 +18,7 @@ function App() {
       <Helmet>
         <meta
           name="description"
-          content="Card presentation from Hector Airy - Sites"
+          content="Un apasionado por diseñar y desarrollar tecnología impactante. Un entusiasta del long-term thinking. Creyente fiel de que no existe nada que no puedas aprender si te lo propones."
           data-react-helmet="true"
         />
         <meta name="robots" content="index, follow" data-react-helmet="true" />
@@ -38,65 +38,68 @@ function App() {
       />
       <p className="bold">@hectorairy</p>
       <h1>
-        Hello world!{"  "}
+        ¡Hola mundo!{"  "}
         <img
           src="https://s.w.org/images/core/emoji/13.1.0/svg/1f44b-1f3fc.svg"
           alt="hello"
           width={30}
         />
-        {"  "}my name is Hector Airy.
+        {"  "}mi nombre es Héctor Airy.
       </h1>
       <p>
-        <span>I'm a React Developer since 2018.</span>
+        <span>
+          Soy desarrollador web trabajando con React/Node desde 2018.{" "}
+        </span>
       </p>
       <p>
-        A passionate about designing and developing impactful technology. An
-        enthusiastic of long term thinking. Faithful believer that there’s
-        nothing you cannot learn.
+        Apasionado por diseñar y desarrollar tecnología impactante. <br />
+        Un entusiasta del long-term thinking. <br />
+        Creyente fiel de que no existe nada que no puedas aprender si te lo
+        propones.
       </p>
       <p>
-        <strong>Welcome!</strong>
+        <strong>¡Visitame en cualquiera de mis redes!</strong>
       </p>
       <>
         <Link
           link="https://hectorairy.com/"
           iconComponent={<FaDragon />}
-          text="My website (in progress...)"
+          text="Mi sitio web (in progress...)"
           background="#8F00FF"
           color="white"
         />
         <Link
           link="https://www.linkedin.com/in/hectorairy/"
           iconComponent={<FaLinkedin />}
-          text="Find me on LinkedIn "
+          text="Encuentrame en LinkedIn"
           background="#0e76a8"
           color="white"
         />
         <Link
           link="https://github.com/hectorairy"
           iconComponent={<FaGithub />}
-          text="Check my code"
+          text="Conoce mis repos"
           background="#171515"
           color="white"
         />
         <Link
-          link="https://hectorairy.com/"
+          link="https://twitter.com/hectorairy"
           iconComponent={<FaTwitter />}
-          text="Follow me on Twitter"
+          text="Sígueme en Twitter"
           background="#1DA1F2"
           color="white"
         />
         <Link
           link="https://www.youtube.com/channel/UCwPHunzXRBnKsFNuZONt5fw"
           iconComponent={<FaYoutube />}
-          text="Git Course"
+          text="Aprende Git/GitHub conmigo"
           background="#FF0000"
           color="white"
         />
         <Link
           link="mailto:hola@hectorairy.com"
           iconComponent={<MdEmail />}
-          text="Can I help you?"
+          text="¿Necesitas algo? Escríbeme..."
           background="#0489C9"
           color="white"
         />
