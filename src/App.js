@@ -13,6 +13,8 @@ import "./App.css";
 import { Link } from "./components/Link";
 
 function App() {
+  const year = new Date().getFullYear();
+
   return (
     <div className="container">
       <Helmet>
@@ -48,7 +50,7 @@ function App() {
       </h1>
       <p>
         <span>
-          Soy desarrollador web trabajando con React/Node desde 2018.{" "}
+          <strong>FullStack JS Developer trabajando desde 2018.</strong>
         </span>
       </p>
       <p>
@@ -58,7 +60,7 @@ function App() {
         propones.
       </p>
       <p>
-        <strong>¡Visitame en cualquiera de mis redes!</strong>
+        <strong>¡Visítame en cualquiera de mis redes!</strong>
       </p>
       <>
         <Link
@@ -71,14 +73,14 @@ function App() {
         <Link
           link="https://www.linkedin.com/in/hectorairy/"
           iconComponent={<FaLinkedin />}
-          text="Encuentrame en LinkedIn"
+          text="Encuéntrame en LinkedIn"
           background="#0e76a8"
           color="white"
         />
         <Link
           link="https://github.com/hectorairy"
           iconComponent={<FaGithub />}
-          text="Conoce mis repos"
+          text="Sígueme en GitHub"
           background="#171515"
           color="white"
         />
@@ -106,12 +108,12 @@ function App() {
       </>
 
       <footer>
-        ♤ The World Is Yours ♤ <br />
+        <strong>♤ The World Is Yours ♤</strong> <br />
         <span>
-          Site created by{" "}
+          &copy; {year} | Site created by{" "}
           <a href="https://hectorairy.com/" target="_blank" rel="noreferrer">
             Héctor Airy
-          </a>{" "}
+          </a>
           🐉
         </span>
       </footer>
